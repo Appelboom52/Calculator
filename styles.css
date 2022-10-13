@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+}
+#container {
+    display: grid;
+    width: 400px;
+    height: 500px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    
+    
+
+}
+
+#display {
+    grid-column: 1/5;
+    background-color: gray;
+    font-size: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+#zero {
+    grid-column: 1/3;
+} 
+
+button {
+    margin: 1px;
+    font-size: large;
+    
+}
+
+.blue {
+    background: 0, rgb(0, 87, 184);
+}
+
+.yellow {
+    background: rgb(255, 215, 0);
+}
+
+.rest {
+    background: white;
+}
+
+.operator {
+    background: white;
+}
+
+.equals {
+    background: white;
+}
